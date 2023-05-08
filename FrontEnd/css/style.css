@@ -150,8 +150,20 @@ header{
 
 /*go*/
 
+/*SOPORTE TECNICO*/
 
 .soporte{
-  color: orange;
+  color: white;
   background-color: orange;
+}
+hr{
+  text-align: center;
+}
+
+.tecnico{
+  width: 1360px;
+  height: 400px;
+}
+::-webkit-scrollbar {
+  display: none;
 }
