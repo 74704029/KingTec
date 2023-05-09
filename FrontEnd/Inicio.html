@@ -14,7 +14,7 @@
 </head>
         
 <body>
-
+    <!-- Barra del formulario -->
     <header>
         <div class="container__header">
             <div class="logo">
@@ -34,12 +34,40 @@
                     </ul>
                 </nav>
 
-                <a href="#" class="sesion"><strong>Iniciar Sesion</strong></a>
+                <a href="javascript:abrir()" class="sesion"><strong>Iniciar Sesion</strong></a>
                 <a href="#" class="registro"><strong>Registrarse</strong></a>
+
                
             </div>
         </div>
     </header>
+
+    <!-- Formulario -->
+    <div class="ventana" id="vent">
+
+        <div id="cerrar"> <a href="javascrip:cerrar()">nose</a></div>
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+
+        
+
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  <!-- Carrusel -->
+
     <br><br><br><br>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
